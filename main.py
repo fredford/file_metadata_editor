@@ -27,10 +27,10 @@ class App:
                 break
 
             # Update the information for the folders in the directory
-            update_folder_information()
+            update_folder_information(folders)
 
             # Update the information for the files in the directory
-            update_file_information()
+            update_file_information(files)
 
             # Exit application
             if exit_app():
